@@ -1,7 +1,7 @@
 <template lang="html">
     <div>
         <ul>
-            <list-item v-for="(country, index) in countries" v-bind:country="country" v-bind:key="index">{{countries.name}}</list-item>
+            <list-item v-for="(country, index) in countries" v-bind:country="country" v-bind:key="index"></list-item>
         </ul>
     </div>
 </template>
@@ -15,7 +15,6 @@
         components: {
             "list-item": ListItem
         }
-
     }
 </script>
 

@@ -7,7 +7,7 @@
     export default {
         name: 'list-item',
         props: ['country'],
-        method: {
+        methods: {
             handleClick(){
                 eventBus.$emit('country-selected', this.country)
             }
